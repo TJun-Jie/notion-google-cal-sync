@@ -1,16 +1,27 @@
 {
   "name": "notion_api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "jj",
   "license": "ISC",
   "dependencies": {
     "@notionhq/client": "^0.2.3",
-    "dotenv": "^10.0.0"
-  }
+    "dotenv": "^10.0.0",
+    "googleapis": "^39.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJun-Jie/notion-google-cal-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TJun-Jie/notion-google-cal-sync/issues"
+  },
+  "homepage": "https://github.com/TJun-Jie/notion-google-cal-sync#readme",
+  "description": ""
 }
